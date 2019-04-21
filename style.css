@@ -1,0 +1,133 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: inherit;
+}
+html{
+  font-size: 50%;
+}
+body{
+  /* width: 100%; */
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  /* font-size: 100%; */
+  line-height: 1.7;
+  /* color: #777; */
+  /* padding: 30px; */
+  box-sizing: border-box;
+}
+.header{
+  height: calc(100vh - 56px);
+  width: 100%;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(32, 103, 161, 0.7),
+    rgba(40,180,131, 0.7)),
+    url(https://images.unsplash.com/photo-1458245201577-fc8a130b8829?ixlib=rb-0.3.5&s=5d00367…&auto=format&fit=crop&w=1355&q=80);
+  background-size: cover;
+  background-position: top;
+}
+.text-box{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+.heading-primary{
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+.heading-primary-main{
+  display: block;
+  font-size: 1.5em;
+  font-weight: 400;
+  letter-spacing: .03em;
+
+}
+.heading-primary-sub{
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1.75rem;
+
+}
+.llego{
+  padding-right: .2em;
+}
+.nav{
+background-color: rgba(54, 168, 115, 0.8);
+width: 100%;
+}
+
+
+a:hover{
+  background-color: #196F3D;
+  transition: 1.0s;
+
+}
+.menu{
+  margin: 0 ;
+  text-align: center;
+  background-color: rgba(37, 122, 83, 0.8)
+
+}
+
+/* .homebtn{
+  margin-left: 55px;
+} */
+
+.menu a{
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  margin: 0 1rem;
+  line-height: 7rem;
+  font-size: 2rem;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  border-radius: 2px;
+
+}
+
+label{
+  margin: 0 4rem 0 0;
+  font-size: 2.6rem;
+  line-height: 7rem;
+  display: none;
+  width: 2.6rem;
+  float: right;
+  color:#fff;
+}
+#toggle{
+  display: none;
+
+}
+@media only screen and (max-width: 500px){
+  label{
+    display: block;
+    cursor: pointer;
+  }
+  h1{
+    font-size: 190%;
+  }
+  .homebtn {
+    margin-left: 55px;
+ }
+  .menu{
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+  .menu a{
+    display: block;
+    border-bottom: 1px solid #EAEAEB;
+    margin: 0;
+    text-align: center;
+    padding:0;
+  }
+  #toggle:checked + .menu{
+    display: block;
+  }
+
+}
