@@ -70,9 +70,17 @@ a:hover{
 .menu{
   margin: 0 ;
   text-align: center;
-  background-color: rgba(37, 122, 83, 0.8)
+  background-color: rgba(37, 122, 83, 0.8);
 
 }
+.comingSoon{
+  color: white;
+  justify-items: center;
+  font-size: 50px;
+  align-items: center;
+  text-align: center;
+}
+
 
 /* .homebtn{
   margin-left: 55px;
