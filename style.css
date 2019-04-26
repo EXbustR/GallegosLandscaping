@@ -111,7 +111,55 @@ label{
   display: none;
 
 }
-@media only screen and (max-width: 500px){
+
+/*CONTENT */
+
+
+.holdingContainer{
+  width: 100%;
+  display: flex;
+  background: white;
+  padding: 50px;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+
+.internalcontainerL{
+  flex: 1;
+  height: 300px;
+  background: cyan;
+  padding: 30px;
+  font-size: 12px;
+  font-family: sans-serif;
+  margin: 50px;
+  font-size: 1.2vh;
+  border-radius: 5px;
+  box-shadow: 5px 15px 30px grey;
+}
+
+.internalcontainerR{
+  flex: 1;
+  height: 300px;
+  background: cyan;
+  padding: 30px;
+  font-size: 1.2vh;
+  font-family: sans-serif;
+  margin: 50px;
+  border-radius: 5px;
+  box-shadow: 5px 15px 30px grey;
+
+}
+
+
+@media only screen and (max-width: 700px){
+
+
+  .holdingContainer{
+    flex-direction: column;
+    padding: 2px;
+  }
+
+
   label{
     display: block;
     cursor: pointer;
