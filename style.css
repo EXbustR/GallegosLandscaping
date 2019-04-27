@@ -118,7 +118,7 @@ label{
 .holdingContainer{
   width: 100%;
   display: flex;
-  background: white;
+  background: #FFFFFF;
   padding: 50px;
   box-sizing: border-box;
   flex-direction: row;
@@ -127,7 +127,7 @@ label{
 .internalcontainerL{
   flex: 1;
   height: 300px;
-  background: cyan;
+  background: #FFFFFF;
   padding: 30px;
   font-size: 12px;
   font-family: sans-serif;
@@ -140,7 +140,7 @@ label{
 .internalcontainerR{
   flex: 1;
   height: 300px;
-  background: cyan;
+  background: #FFFFFF;
   padding: 30px;
   font-size: 1.2vh;
   font-family: sans-serif;
@@ -157,6 +157,13 @@ label{
   .holdingContainer{
     flex-direction: column;
     padding: 2px;
+  }
+
+  .internalcontainerL{
+    margin:25px;
+  }
+  .internalcontainerR{
+    margin: 25px;
   }
 
 
