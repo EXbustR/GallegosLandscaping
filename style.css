@@ -122,11 +122,12 @@ label{
   padding: 50px;
   box-sizing: border-box;
   flex-direction: row;
+
 }
 
 .internalcontainerL{
   flex: 1;
-  height: 300px;
+  height: 500px;
   background: #FFFFFF;
   padding: 30px;
   font-size: 12px;
@@ -135,11 +136,15 @@ label{
   font-size: 1.2vh;
   border-radius: 5px;
   box-shadow: 5px 15px 30px grey;
+  text-align: center;
+  font-family: "lato", sans-serif;
+
+
 }
 
 .internalcontainerR{
   flex: 1;
-  height: 300px;
+  height: 500px;
   background: #FFFFFF;
   padding: 30px;
   font-size: 1.2vh;
@@ -147,6 +152,9 @@ label{
   margin: 50px;
   border-radius: 5px;
   box-shadow: 5px 15px 30px grey;
+  text-align: center;
+  font-family: "lato", sans-serif;
+
 
 }
 
