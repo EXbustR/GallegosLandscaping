@@ -16,6 +16,12 @@ body{
   /* padding: 30px; */
   box-sizing: border-box;
 }
+.pic{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
 .header{
   height: calc(100vh - 56px);
   width: 100%;
@@ -37,14 +43,12 @@ body{
   color: #fff;
   text-transform: uppercase;
   text-align: center;
-
 }
 .heading-primary-main{
   display: block;
   font-size: 1.5em;
   font-weight: 400;
   letter-spacing: .03em;
-
 }
 .heading-primary-sub{
   display: block;
@@ -125,12 +129,11 @@ label{
   height: 500px;
   background: #FFFFFF;
   padding: 30px;
-  font-size: 12px;
   font-family: sans-serif;
   margin: 50px;
-  font-size: 1.2vh;
+  font-size: 2vh;
   border-radius: 5px;
-  box-shadow: 5px 15px 30px grey;
+  /* box-shadow: 5px 15px 30px grey; */
   text-align: center;
   font-family: "lato", sans-serif;
 }
@@ -140,11 +143,11 @@ label{
   height: 500px;
   background: #FFFFFF;
   padding: 30px;
-  font-size: 1.2vh;
+  font-size: 2vh;
   font-family: sans-serif;
   margin: 50px;
   border-radius: 5px;
-  box-shadow: 5px 15px 30px grey;
+  /* box-shadow: 5px 15px 30px grey; */
   text-align: center;
   font-family: "lato", sans-serif;
 }
@@ -239,7 +242,7 @@ label{
   display: none;
 }
 
-@media (max-width:600px) {
+@media (max-width:700px) {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
