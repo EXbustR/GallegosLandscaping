@@ -16,6 +16,9 @@ body{
   /* padding: 30px; */
   box-sizing: border-box;
 }
+p{
+  text-indent: 50px;
+}
 .pic{
   width: 200px;
   height: 200px;
@@ -168,7 +171,7 @@ label{
   .internalcontainerR{
     margin: 25px;
   }
-
+  
 
   label{
     display: block;
