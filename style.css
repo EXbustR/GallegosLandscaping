@@ -22,12 +22,12 @@ p{
   border-radius: 50%;
   object-fit: cover;
 }
-.hands{
+/* .hands{
   width: 200px;
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
-}
+} */
 
 .header{
   height: calc(100vh - 56px);
