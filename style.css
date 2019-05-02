@@ -7,22 +7,20 @@ html{
   font-size: 50%;
 }
 body{
-  /* width: 100%; */
   font-family: "lato", sans-serif;
   font-weight: 400;
-  /* font-size: 100%; */
   line-height: 1.7;
-  /* color: #777; */
-  /* padding: 30px; */
   box-sizing: border-box;
 }
 p{
   text-indent: 50px;
 }
+
 .pic{
   width: 200px;
   height: 200px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .header{
