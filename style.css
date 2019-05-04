@@ -13,6 +13,8 @@ body{
   box-sizing: border-box;
 }
 p{
+  font-size: 2vh;
+  height: 50%;
   text-indent: 50px;
   padding: 10px 10px 10px 10px;
 }
@@ -124,6 +126,7 @@ label{
 
 .holdingContainer{
   width: 100%;
+  height: 80vh;
   display: flex;
   background: #FFFFFF;
   padding: 50px;
@@ -134,7 +137,7 @@ label{
 
 .internalcontainerL{
   flex: 1;
-  height: 500px;
+  height:150px;
   background: #FFFFFF;
   padding: 30px;
   font-family: sans-serif;
@@ -147,7 +150,7 @@ label{
 
 .internalcontainerR{
   flex: 1;
-  height: 500px;
+  height: 150px;
   background: #FFFFFF;
   padding: 30px;
   font-size: 2vh;
@@ -164,7 +167,7 @@ label{
 .footer{
   width: 100%;
   display: flex;
-  background: #196F3D;
+  background: #D6DBDF;
   padding: 50px;
   box-sizing: border-box;
   flex-direction: row;
@@ -173,7 +176,7 @@ label{
 .ftcontent{
   flex:1;
   height: 500px;
-  background: blue;
+  background: #D6DBDF;
 
 }
 
@@ -192,7 +195,9 @@ label{
   .internalcontainerR{
     margin: 25px;
   }
-  
+  p{
+    font-size: 1.8vh;
+  }
 
   label{
     display: block;
