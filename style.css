@@ -19,6 +19,14 @@ p{
   padding: 10px 10px 10px 10px;
 }
 
+.page, :target ~ .default {
+  display: none;
+}
+
+.default, :target {
+  display: block;
+}
+
 
 /*CAROUSELl */
 .carousel {
@@ -421,6 +429,8 @@ label{
   width: 100%;
   background-color: #4d4d4d;
   position: relative;
+  position: fixed;
+  z-index: 10;
 }
 
 .nav > .nav-header {
@@ -436,6 +446,7 @@ label{
 
 .nav > .nav-btn {
   display: none;
+  
 }
 
 .nav > .nav-links {
