@@ -18,6 +18,16 @@ p{
   text-indent: 50px;
   padding: 10px 10px 10px 10px;
 }
+ul{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+}
+li{
+  width: 25%;
+  margin: auto;
+}
 /* contactform */
 .contactBody{
   background-color: ;
@@ -59,8 +69,8 @@ p{
 }
 
 .name { 
-  background-color: #DF1B76;
-  border-bottom: 5px solid #B2175F;
+  background-color: #7239C1;
+  border-bottom: 5px solid #502789;
   color: white;
   width:300px;
 }
@@ -70,8 +80,8 @@ p{
     font-size: 20px;
 }
 .name:hover{
-  background-color: #DF1B76;
-  border-bottom: 5px solid #B2175F;
+  background-color: #2DD7BB;
+  border-bottom: 5px solid #2BB09A;
   height:30px;
   width:400px;
 }
@@ -84,15 +94,15 @@ p{
   
 }
 .email:hover{
-  background-color: #7239C1;  
-  border-bottom: 5px solid #502789;
+  background-color: #2DD7BB;  
+  border-bottom: 5px solid #2BB09A;
   height:30px;
   width:380px;
  
 }
 .message {   
-  background-color: rgb(230, 108, 15);
-  border-bottom: 5px solid rgb(195, 35, 17);
+  background-color: #7239C1;
+  border-bottom: 5px solid #502789;
   overflow: hidden;
   height: 100px;  
   width:300px;
@@ -478,6 +488,7 @@ label{
 
 
 @media only screen and (max-width: 700px){
+ 
   .contactBody{
     background-color: ;
     background-size: cover;
@@ -682,6 +693,7 @@ label{
   }
   p{
     font-size: 1.8vh;
+    text-align: center;
   }
 
   label{
