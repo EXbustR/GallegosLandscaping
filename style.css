@@ -12,11 +12,33 @@ body{
   line-height: 1.7;
   box-sizing: border-box;
 }
+.footercont{
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(32, 103, 161, 0.7),
+    rgba(40,180,131, 0.7));
+  width: 100vw;
+  height: 200px;
+}
+
+
+.number{
+  position: absolute;
+  left:41%;
+  margin-left: 50%;
+  font-size: 2vw;
+  margin: auto;
+  
+}
 p{
+  text-align: center;
   font-size: 2vh;
   height: 50%;
   text-indent: 50px;
   padding: 10px 10px 10px 10px;
+}
+h1{
+  text-align: center;
 }
 ul{
   align-items: center;
@@ -33,7 +55,7 @@ li{
   background-color: ;
   background-size: cover;
   background-attachment: fixed;
-  height:700px;
+  height:450px;
 
 }
 .title{
@@ -203,7 +225,7 @@ li{
   width: 100%;
   object-fit: cover;
   display: block;
-  height: auto;
+  height: 100vh;
   max-width: 100%;
   
 }
@@ -488,12 +510,20 @@ label{
 
 
 @media only screen and (max-width: 700px){
+  .footercont{
+    background-image: linear-gradient(
+      to right bottom,
+      rgba(32, 103, 161, 0.7),
+      rgba(40,180,131, 0.7))
+    width: 100vw;
+    height: 200px;
+  }
  
   .contactBody{
     background-color: ;
     background-size: cover;
     background-attachment: fixed;
-    height:700px;
+    height:450px;
 
 }
 .title{
@@ -694,6 +724,12 @@ label{
   p{
     font-size: 1.8vh;
     text-align: center;
+    
+  }
+  .footercontainer{
+  background-color: #196F3D;
+  width: 25%;
+  height: 25%;
   }
 
   label{
@@ -753,7 +789,7 @@ label{
 
 .nav > .nav-links {
   display: inline;
-  float: right;
+  /* float: right; */
   font-size: 18px;
 }
 
@@ -773,6 +809,9 @@ label{
 }
 
 @media (max-width:700px) {
+  h2{
+    text-align: center;
+  }
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
