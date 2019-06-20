@@ -30,10 +30,10 @@
     </div>
 
     <div class="nav-links">
-      <a href="index.html" target="_blank">Home</a>
-      <a href="#about1" target="_blank">About</a>
-      <a href="#services1" target="_blank">Services</a>
-      <a href="#" target="_blank">Contact</a>
+      <a href="#">Home</a>
+      <a href="#about1">About</a>
+      <a href="#services1">Services</a>
+      <a href="#">Contact</a>
     </div>
   </div>
 
@@ -151,7 +151,7 @@
 </div>
 <footer>
   <div class="footercont">
-    <h2>Developer</h2>
+    <h2 class="dev">Developer</h2>
   <ul>
     <li>
       <a href="https://github.com/EXbustR">Jose Alcaraz</a>
@@ -168,7 +168,14 @@
 
 
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+  $('.nav-links > a').on('click', ()=>{
 
+$('#nav-check').prop('checked', false);
+
+});
+</script>
 </body>
 
 </html>
