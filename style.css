@@ -14,12 +14,16 @@ body{
 }
 
 .footercont{
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to right bottom,
     rgba(32, 103, 161, 0.7),
-    rgba(40,180,131, 0.7));
+    rgba(40,180,131, 0.7)); */
+    background-image: radial-gradient(#727272, #4d4d4d);
   width: 100vw;
   height: 200px;
+  text-align: center;
+  font-size: 2vh;
+  color: white;
 }
 
 
@@ -50,6 +54,8 @@ ul{
 li{
   width: 25%;
   margin: auto;
+  list-style-type: none;
+
 }
 /* contactform */
 .contactBody{
@@ -511,10 +517,11 @@ label{
 
 @media only screen and (max-width: 700px){
   .footercont{
-    background-image: linear-gradient(
+    /* background-image: linear-gradient(
       to right bottom,
       rgba(32, 103, 161, 0.7),
-      rgba(40,180,131, 0.7));
+      rgba(40,180,131, 0.7)); */
+      background-color: #4d4d4d;
     width: 100vw;
     height: 200px;
   }
